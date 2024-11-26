@@ -37,6 +37,7 @@ label.pack()
 
 frame = Frame(window)
 frame.pack()
+## NUMBERS
 button1 = Button(frame, text=1, height=4, width=9, font=35,
                  command=lambda: button_press(1))
 button1.grid(row=0, column=0, )
